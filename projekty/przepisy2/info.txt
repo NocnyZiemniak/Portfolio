@@ -1,0 +1,3 @@
+W ulepszeniu strony dodałem javascript, a w nim ciemny motyw, po zmienieniu na motyw ciemny w stronie głównej,
+zapamiętuje wybór na podstronach dodałem przycisk powrót z podstrony do głównej stron oraz zmieniłem wyświetlanie
+strony na urządzenaich mobilnych
