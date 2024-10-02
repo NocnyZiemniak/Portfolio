@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <pre>
+        <code class="language-cpp">
+            #include<iostream>
+                using namespace std;
+                
+                int silnia (int n)
+                {
+                if (n == 0) return 1;
+                else return n*silnia(n-1);
+                }
+                
+                int A()
+                {
+                //Podpunkt A
+                
+                int n;
+                int silnia = 1;
+                cout<<"Podaj liczbe ";
+                cin>>n;
+                for(int i=n;i>1;i--)
+                    silnia=silnia*i;
+                cout<<n<<"! = "<<silnia<<endl;
+                return 0;
+                }
+                int B()
+                {
+                //Podpunkt B
+                
+                int n;
+                cout << "Podaj liczbe ";
+                cin >> n;
+                cout << n << "! = " << silnia(n) << endl;
+                return 0;
+                }
+                int main()
+                {
+                    A();
+                    B();
+                    return 0;
+                }
+                
+                
+        </code>
+    </pre>
+        
+</body>
+</html>
